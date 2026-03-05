@@ -5,7 +5,7 @@ package basics;
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
 
-public class Q9_BasicCalculator {
+public class Q09_BasicCalculator {
 
     public static void main(String[] args) throws Exception {
 

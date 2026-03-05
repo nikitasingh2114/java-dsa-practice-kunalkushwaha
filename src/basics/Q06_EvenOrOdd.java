@@ -5,7 +5,7 @@ package basics;
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
 
-public class Q6_EvenOrOdd {
+public class Q06_EvenOrOdd {
 
     public static void main(String[] args) throws Exception {
 

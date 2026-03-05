@@ -4,7 +4,7 @@ package basics;
 
 import java.io.*;
 
-public class Q1_LeapYear {
+public class Q01_LeapYear {
 
     public static void main(String[] args) throws Exception {
 

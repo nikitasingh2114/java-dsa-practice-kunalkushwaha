@@ -5,7 +5,7 @@ package basics;
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
 
-public class Q8_SimpleInterest {
+public class Q08_SimpleInterest {
 
     public static void main(String[] args) throws Exception {
 

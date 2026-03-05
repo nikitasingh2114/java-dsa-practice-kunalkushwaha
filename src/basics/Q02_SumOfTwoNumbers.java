@@ -4,7 +4,7 @@ package basics;
 
 import java.io.*;
 
-public class Q2_SumOfTwoNumbers {
+public class Q02_SumOfTwoNumbers {
 
     public static void main(String[] args) throws Exception
     {
