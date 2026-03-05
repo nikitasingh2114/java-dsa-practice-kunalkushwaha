@@ -11,5 +11,19 @@ public class Q39_LargestUntilZero {
 
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 
+        int max=0;
+
+        while(true)
+        {
+            int num = Integer.parseInt(br.readLine());
+            if(num==0)
+                break;
+            else
+                if(max<num)
+                    max=num;
+        }
+
+        System.out.println(max);
+
     }
 }

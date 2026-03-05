@@ -10,6 +10,17 @@ public class Q38_SumUntilZero {
     public static void main(String[] args) throws Exception {
 
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+        int sum = 0;
 
+        while(true)
+        {
+            int num = Integer.parseInt(br.readLine());
+            if(num==0)
+                break;
+            else
+                sum+=num;
+        }
+
+        System.out.println(sum);
     }
 }

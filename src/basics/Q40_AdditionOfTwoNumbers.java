@@ -11,5 +11,11 @@ public class Q40_AdditionOfTwoNumbers {
 
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 
+        int num1 = Integer.parseInt(br.readLine());
+        int num2 = Integer.parseInt(br.readLine());
+
+        int sum = num1 + num2;
+        System.out.println(sum);
+
     }
 }
