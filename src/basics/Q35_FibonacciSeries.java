@@ -1,15 +1,16 @@
-//To calculate Fibonacci Series up to n numbers.
+//Fibonacci Series In Java Programs
 
 package basics;
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
 
-public class Q12_FibonacciSeries {
+public class Q35_FibonacciSeries {
 
     public static void main(String[] args) throws Exception {
 
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+
         StringBuilder sb= new StringBuilder();
 
         int num = Integer.parseInt(br.readLine());
