@@ -11,5 +11,16 @@ public class Q53_SumOfNNumbers {
 
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 
+        int n = Integer.parseInt(br.readLine());
+        int sum = 0;
+
+        for(int i=0; i<n; i++)
+        {
+            int num = Integer.parseInt(br.readLine());
+            sum += num;
+
+        }
+
+        System.out.println("Sum : "+sum);
     }
 }

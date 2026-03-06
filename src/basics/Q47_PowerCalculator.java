@@ -11,5 +11,15 @@ public class Q47_PowerCalculator {
 
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 
+        System.out.println("Enter Number");
+        int num = Integer.parseInt(br.readLine());
+
+        System.out.println("Enter Power");
+        int power = Integer.parseInt(br.readLine());
+
+        double result = Math.pow(num,power);
+
+        System.out.println("Result: "+result);
+
     }
 }

@@ -11,21 +11,62 @@ public class Q13_StringPalindrome {
 
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 
-        int num = Integer.parseInt(br.readLine());
-        int r=0,sum=0;
-        int num_dup = num;
+        StringBuilder sb = new StringBuilder();
 
-        while(num!=0)
+        System.out.println("Enter the string");
+        String str = br.readLine();
+
+        int length = str.length();
+
+        for(int i = length - 1; i >= 0; i--)
         {
-            r = num%10;
-            sum = sum*10+r;
-            num = num/10;
+            sb.append(str.charAt(i));
         }
 
-        if(sum == num_dup)
-            System.out.println("Palindrome Number");
+        if(str.equals(sb.toString()))
+            System.out.println("Palindrome String");
         else
-            System.out.println("Not a Palindrome Number");
-
+            System.out.println("Not a Palindrome String");
     }
 }
+
+
+/*
+package basics;
+
+import java.io.BufferedReader;
+import java.io.InputStreamReader;
+
+public class Q13_StringPalindrome {
+
+    public static void main(String[] args) throws Exception {
+
+        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+
+        System.out.println("Enter the string");
+        String str = br.readLine();
+
+        int left = 0;
+        int right = str.length() - 1;
+
+        boolean isPalindrome = true;
+
+        while(left < right)
+        {
+            if(str.charAt(left) != str.charAt(right))
+            {
+                isPalindrome = false;
+                break;
+            }
+
+            left++;
+            right--;
+        }
+
+        if(isPalindrome)
+            System.out.println("Palindrome String");
+        else
+            System.out.println("Not a Palindrome String");
+    }
+}
+ */

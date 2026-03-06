@@ -11,5 +11,18 @@ public class Q44_ProductDiscountCalculator {
 
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 
+        System.out.println("Enter the amount of the product");
+        double amount = Double.parseDouble(br.readLine());
+
+        System.out.println("Enter discount percentage");
+        double discount = Double.parseDouble(br.readLine());
+
+        double discountCost = (amount * discount) / 100;
+
+        double newRate = amount - discountCost;
+
+        System.out.println("Discount : " + discountCost);
+        System.out.println("Final Amount : " + newRate);
+
     }
 }
