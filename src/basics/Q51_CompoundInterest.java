@@ -24,7 +24,7 @@ public class Q51_CompoundInterest {
 
         double compoundInterest = amount - principle;
 
-        System.out.println("Compound Interest : "+compoundInterest);
+
         System.out.printf("Compound Interest : %.2f", compoundInterest);
 
     }
